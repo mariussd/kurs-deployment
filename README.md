@@ -16,10 +16,14 @@ http://abatedtalks.tech
 ## Useful links
 - Docker docs: https://docs.docker.com/get-started/
 - Docker hub docs: https://docs.docker.com/docker-hub/
-- Parcel docs: https://v2.parceljs.org/getting-started/webapp/
+- Parcel docs: https://v2.parceljs.onpm install -D parcel@nextrg/getting-started/webapp/
 - How to use the NGINX Docker image: https://www.docker.com/blog/how-to-use-the-official-nginx-docker-image/
 
 ## Terminal commands
+
+#### Installer Parcel
+
+npm install -D parcel@next
 
 #### Først bygger vi nettsiden med Parcel
 
