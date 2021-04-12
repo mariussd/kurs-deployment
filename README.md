@@ -1,4 +1,4 @@
-# kurs-depoyment
+# Kurs i deployment, AbaTEDtalks 2021
 
 ## Dependencies 
 
