@@ -25,16 +25,16 @@
 
 #### Så lager vi et Docker image av det og tagger det med en bra tag
 
-`docker build -t mariussd/kurs-deployment:latest .`
+`docker build -t <din ønskede docker-tag> .`
 
 #### Så pusher vi imaget til Dockerhub
 
-`docker push mariussd/kurs-deployment:latest`
+`docker push <din ønskede docker-tag>`
 
 #### Puller imaget fra Dockerhub på serveren
 
-`docker pull mariussd/kurs-deployment:latest`
+`docker pull <din ønskede docker-tag>`
 
 #### Kjører opp imaget på serveren på port 80 (HTTP requests)
 
-`docker run -d -p 80:80 mariussd/kurs-deployment:latest`
+`docker run -d -p 80:80 <din ønskede docker-tag>`
