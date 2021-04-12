@@ -1,0 +1,27 @@
+{
+  "name": "aba-ted-deployment",
+  "version": "1.0.0",
+  "description": "kurs om docker og deployment",
+  "scripts": {
+    "test": "test",
+    "dev": "parcel index.html",
+    "build": "parcel build index.html && docker build -t mariussd/kurs-deployment:latest . && docker tag mariussd/kurs-deployment mariussd/kurs-deployment:latest && docker push mariussd/kurs-deployment:latest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mariussd/kurs-depoyment.git"
+  },
+  "keywords": [
+    "lol2k"
+  ],
+  "author": "Marius S. Dreyer",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mariussd/kurs-depoyment/issues"
+  },
+  "homepage": "https://github.com/mariussd/kurs-depoyment#readme",
+  "devDependencies": {
+    "@parcel/transformer-image": "^2.0.0-beta.2",
+    "parcel": "^2.0.0-beta.2"
+  }
+}
