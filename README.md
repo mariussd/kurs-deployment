@@ -1,5 +1,7 @@
 # Kurs i deployment, AbaTEDtalks 2021
 
+http://abatedtalks.tech
+
 ## Dependencies 
 
 - Docker må være installert
