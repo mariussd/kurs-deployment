@@ -23,7 +23,7 @@ http://abatedtalks.tech
 
 #### Installer Parcel
 
-npm install -D parcel@next
+`npm install -D parcel@next`
 
 #### Først bygger vi nettsiden med Parcel
 
