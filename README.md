@@ -2,7 +2,7 @@
 
 http://abatedtalks.tech
 
-## Dependencies 
+## Avhengigheter 
 
 - Docker må være installert
 - Bruker på DockerHub
@@ -13,13 +13,15 @@ http://abatedtalks.tech
 - Parcel
     - https://v2.parceljs.org/getting-started/webapp/
 
-## Useful links
+## Nyttige lenker
 - Docker docs: https://docs.docker.com/get-started/
 - Docker hub docs: https://docs.docker.com/docker-hub/
 - Parcel docs: https://v2.parceljs.onpm install -D parcel@nextrg/getting-started/webapp/
 - How to use the NGINX Docker image: https://www.docker.com/blog/how-to-use-the-official-nginx-docker-image/
+- DigitalOcean: https://www.digitalocean.com/
+- GitHub student developer: https://education.github.com/pack
 
-## Terminal commands
+## Terminalkommandoer
 
 #### Installer Parcel
 
@@ -44,3 +46,6 @@ http://abatedtalks.tech
 #### Kjører opp imaget på serveren på port 80 (HTTP requests)
 
 `docker run -d -p 80:80 <din ønskede docker-tag>`
+
+## Videre utvidelser
+- Fikse HTTPS med docker-compose: https://pentacent.medium.com/nginx-and-lets-encrypt-with-docker-in-less-than-5-minutes-b4b8a60d3a71
